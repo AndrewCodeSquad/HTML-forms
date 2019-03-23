@@ -1,0 +1,43 @@
+body {
+	font-family: 'Muli', sans-serif;
+	background-color: aquamarine;
+}
+input[type=text], input[type=email] {
+	width: 80%;
+	padding: 1%;
+	margin: 1%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+input[type=date], input[type=time], input[type=color], textarea {
+	padding: 1%;
+	margin: 1%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+button {
+	margin: 1%;
+}
+.container {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.address {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 84%;
+}
+.street {
+	flex: 3;
+}
+.cityStateZip {
+	flex: 1;
+}
+.formBorder {
+	width: 60%;
+	border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

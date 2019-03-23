@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>WePaintInteriors - the interior painting pros</title>
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+	</head>
+	<body>
+		<h1>
+			WePaintInteriors - the interior painting pros
+		</h1>
+		<p>We're excited to paint your room or office!  Please fill out the form below to receive a quote:</p>
+		<div class="formBorder">
+		<form action="https://www.w3schools.com/action_page.php">
+			<div class="container">
+					<label for="firstName">First name</label>
+					<input type="text" name="firstName" id="firstName" placeholder="Richard">
+			</div>
+			<div class="container">
+				<label for="lastName">Last name</label>
+				<input type="text" name="lastName" id="lastName" placeholder="Hendricks">
+			</div>
+			<div class="container">
+				<label for="email">Email</label>
+				<input type="email" name="email" id="email" placeholder="richard@piedpiper.com">
+			</div>
+			<div class="container">
+				<div>
+					<label for="street">Address</label>
+				</div>
+				<div class="address">
+					<input type="text" class="street" name="street" id="street" placeholder="Number and street">
+					<input type="text" class="cityStateZip" name="city" placeholder="City">
+					<input type="text" class="cityStateZip" name="state" placeholder="State">
+					<input type="text" class="cityStateZip" name="zip" placeholder="Zip Code">
+				</div>
+			</div>
+			<div class="container">
+				<div class="address">
+					<label for="date">Desired start:</label>
+					<input type="date" name="datePick" id="date">
+					<label for="time">Time:</label>
+					<input type="time" id="time" name="time">
+					<label for="colorPick">Desired paint color:</label>
+					<input type="color" id="colorPick" name="colorPick">
+				</div>
+			</div>
+			<div class="container">
+				<label for="comments">Comments:</label>
+				<textarea name="comments" id="comments" cols="80" rows="10"></textarea>
+			</div>
+			<div class="container">
+				<button type="submit">Submit</button>
+			</div>
+
+		</form>
+		</div>
+	</body>
+</html>
